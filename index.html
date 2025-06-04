@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Varun Prasad S - Portfolio</title>
+  <style> 
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: linear-gradient(to right, #000000, #170064);
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid white;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #c8e6c9;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+        padding: 60px 20px;
+        background: linear-gradient(to right, #000000, #170064);
+        color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+    #about{
+        padding: 10px;
+        margin: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #170064;
+      border-bottom: 2px solid #a5d6a7;
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    a {
+      color: #170064;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #170064;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+    .img-container{
+        width: 100px;
+        height: 100px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+    .bottom-padding{
+        padding-bottom: 10px;
+    }
+    .lists{
+        padding-left: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <div>
+        <h1>Varun Prasad S</h1>
+        <p>Student | Full Stack Developer | Data Enthusiast</p>
+    </div>
+    <div class="img-container">
+        <img width="100px" height="100px" src="../assests/WhatsApp Image 2025-06-03 at 2.44.52 PM.jpeg" alt="">
+    </div>
+  </header>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p class="bottom-padding">
+        I'm a passionate and dedicated student aiming to apply my technical skills and creativity to real-world
+        projects. I constantly explore AI, full-stack development, and data science to build efficient digital solutions.</p>
+
+        <p class="bottom-padding">Aspiring Full Stack Developer with a strong foundation in Java, Python, React, and Node.js, driven by a passion for building innovative, user-focused web and mobile applications.
+
+        Currently pursuing my B.E. in Computer Science at PSG College of Technology, I bring hands-on experience through academic projects and internships, such as the development of Plan-It (a travel planning web platform) and HEMS (a health management mobile application). These projects reflect my ability to integrate frontend, backend, and database technologies like PostgreSQL and MongoDB into real-world solutions.
+
+        With certifications from LinkedIn Learning and a successful internship as a Java Full Stack Developer, I am continuously leveling up my skills in modern frameworks and tools to stay aligned with industry trends.</p>
+
+        <p class="bottom-padding lists">What defines me:<br>
+
+            ✔ Strong understanding of full stack development using modern frameworks<br>
+            ✔ A self-driven learner with a proactive problem-solving mindset<br>
+            ✔ Experience delivering responsive, user-friendly applications<br>
+            ✔ Passionate about data analytics, UI/UX, and backend integration<br>
+            ✔ Committed to continuous improvement and real-world impact<br> 
+
+        </p>
+
+            <p class="bottom-padding">My goal is to grow as a solution-oriented developer, contribute to innovative teams, and create technology that makes everyday life better and smarter.</p>
+
+
+     
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Java, Python, Node.js</li>
+        <li>Spring Boot, React, Next.js</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>MySQL, MongoDB, PostgreSQL</li>
+        <li>GitHub, Firebase</li>
+        <li>Microsoft Office</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>PLAN-IT</h3>
+        <p>
+          A web platform for streamlined travel planning with smart itinerary generation.
+        </p>
+        <p><strong>Tech Used:</strong> React, Node.js, PostgreSQL</p>
+      </div>
+
+      <div class="project">
+        <h3>HEMS (Hospital Enhancement Management System)</h3>
+        <p>
+          Android app for managing healthcare — includes donation, appointments, and BMI tracker.
+        </p>
+        <p><strong>Tech Used:</strong> Next.js, Firebase, MongoDB</p>
+      </div>
+
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>B.E Computer Science – PSG College of Technology, Coimbatore (May 2026) – CGPA: 6.5</li>
+        <li>Diploma – SRM Valliammai Polytechnic College, Chennai (May 2023) : 90.7%</li>
+        <li>HSE – Paavai Vidhyashram School, Namakkal (March 2020) : 71%</li>
+        <li>SSLC – Vidhya Nikethan Intel Mat Hr Sec School, Namakkal (April 2018) : 83.2%</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:varunsridharj@gmail.com">varunsridharj@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/varunsridhar03/">linkedin.com/in/varunsridhar03</a></p>
+      <p>GitHub: <a href="https://github.com/varunsridharj">github.com/varunsridharj</a></p>
+      <p>Phone: +91 63817 50547</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Varun Prasad S | Portfolio</p>
+  </footer>
+
+</body>
+
+</html>
